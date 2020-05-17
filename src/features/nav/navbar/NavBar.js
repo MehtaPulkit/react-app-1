@@ -7,7 +7,7 @@ import SignedInMenu from "../menus/SignedInMenu";
 
 class NavBar extends Component {
   state = {
-    authenticated: true,
+    authenticated: false,
   };
 
   handleSignIn = () => {
@@ -30,6 +30,7 @@ class NavBar extends Component {
             </Menu.Item>
             <Menu.Item as={NavLink} to="/events" name="Events" />
             <Menu.Item as={NavLink} to="/people" name="People" />
+            <Menu.Item as={NavLink} to="/test" name="Test" />
             <Menu.Item>
               <Button
                 as={Link}
