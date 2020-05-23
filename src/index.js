@@ -6,16 +6,19 @@ import App from "./app/layout/App";
 import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import { configureStore } from "./app/store/configureStore";
+import ScrollToTop from "./app/common/utils/ScrollToTop";
 
-const store= configureStore();
+const store = configureStore();
 
 const Lib = () => {
   return (
-      <Provider store= {store}>
+    <Provider store={store}>
       <BrowserRouter>
-        <App />
+        <ScrollToTop>
+          <App />
+        </ScrollToTop>
       </BrowserRouter>
-      </Provider>
+    </Provider>
   );
 };
 ReactDOM.render(<Lib />, document.getElementById("root"));

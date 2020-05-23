@@ -7,13 +7,13 @@ const initialState = {
 
 const incrementCounter = (state) => {
   return { ...state, data: state.data + 1 };
-}
+};
 
 const decrementCounter = (state) => {
   return { ...state, data: state.data - 1 };
-}
+};
 
-export default createReducer(initialState,{
+export default createReducer(initialState, {
   [INCREMENT_COUNTER]: incrementCounter,
-  [DECREMENT_COUNTER]:decrementCounter
+  [DECREMENT_COUNTER]: decrementCounter,
 });
