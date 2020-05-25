@@ -30,3 +30,4 @@ const HomePage = ({ history }) => {
   );
 };
 export default HomePage;
+// Home page is a separated page from application and has separated routing on App.js

@@ -61,3 +61,4 @@ const EventDetailedHeader = ({ event }) => {
 };
 
 export default EventDetailedHeader;
+// This is header component of events page and has inline styles

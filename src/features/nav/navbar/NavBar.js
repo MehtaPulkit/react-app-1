@@ -17,6 +17,7 @@ class NavBar extends Component {
     this.setState({ authenticated: false });
     this.props.history.push("/");
   };
+// Pushes to homepage
 
   render() {
     const { authenticated } = this.state;
@@ -54,3 +55,4 @@ class NavBar extends Component {
 }
 
 export default withRouter(NavBar)
+// Used higherorder component withRouter

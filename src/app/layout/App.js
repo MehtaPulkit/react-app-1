@@ -45,3 +45,6 @@ class App extends Component {
 }
 
 export default withRouter(App);
+// The App consists of all the components of the application 
+// Consists of all the routing and features like exact , {[,]} multiple routes to same page,  path="/(.+)"
+// Switch to control the switching of routes with same component reference

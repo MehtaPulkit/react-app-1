@@ -35,3 +35,4 @@ const EventDetailedPage = ({ event }) => {
 };
 
 export default connect(mapState)(EventDetailedPage);
+// This is main component of events page and managed by connect with states

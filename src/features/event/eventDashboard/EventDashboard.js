@@ -36,3 +36,5 @@ class EventDashboard extends Component {
   }
 }
 export default connect(mapState, actions)(EventDashboard);
+// This consists of all the events related components as children
+// Uses connect as higher order component provided by redux and pass state and actions

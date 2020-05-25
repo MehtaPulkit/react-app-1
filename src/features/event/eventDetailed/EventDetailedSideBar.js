@@ -41,3 +41,4 @@ const EventDetailedSideBar = ({ attendees }) => {
 };
 
 export default EventDetailedSideBar;
+// This is sidebar component of events page

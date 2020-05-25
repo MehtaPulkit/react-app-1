@@ -6,3 +6,4 @@ export const configureStore = () => {
   const store = createStore(rootReducer, devToolsEnhancer());
   return store;
 };
+// Store configuration with reducer and devTools

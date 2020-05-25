@@ -93,3 +93,4 @@ const EventDetailedChat = () => {
 };
 
 export default EventDetailedChat;
+// This is comment component of events page

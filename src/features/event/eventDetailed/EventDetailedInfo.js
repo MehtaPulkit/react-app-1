@@ -42,3 +42,4 @@ const EventDetailedInfo = ({ event }) => {
 };
 
 export default EventDetailedInfo;
+// This is Info component of events page

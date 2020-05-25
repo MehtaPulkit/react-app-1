@@ -72,3 +72,5 @@ export default createReducer(initialState, {
   [UPDATE_EVENT]: updateEvent,
   [DELETE_EVENT]: deleteEvent,
 });
+
+// This the reducer for the events with manages all the CRUD operations and data(state)

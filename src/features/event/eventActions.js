@@ -26,3 +26,5 @@ export const deleteEvent =(eventId)=>{
         }
     }
 }
+
+// These are definations of the CRUD actions performed by redux 

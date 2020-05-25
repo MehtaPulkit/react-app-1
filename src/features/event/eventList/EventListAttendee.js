@@ -12,3 +12,4 @@ class EventListAttendee extends Component {
   }
 }
 export default EventListAttendee;
+// attendees for an event

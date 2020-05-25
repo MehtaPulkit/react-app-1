@@ -59,3 +59,4 @@ class EventListItem extends Component {
 }
 
 export default EventListItem;
+// Event List item

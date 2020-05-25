@@ -26,3 +26,4 @@ const SignedInMenu = ({ signOut }) => {
   );
 };
 export default SignedInMenu;
+// If user signed in this will be shown on the right corner of navbar as a dropdown

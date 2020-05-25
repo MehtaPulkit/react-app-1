@@ -19,3 +19,4 @@ class EventList extends Component {
 }
 
 export default EventList;
+// This is List of events component 

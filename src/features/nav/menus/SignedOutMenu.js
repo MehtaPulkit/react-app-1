@@ -15,3 +15,4 @@ const SignedOutMenu = ({signIn}) => {
   );
 };
 export default SignedOutMenu;
+// If user in logged out then this will be shown on the right corner of the navbar
